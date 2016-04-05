@@ -2,10 +2,19 @@
 <html>
 <head>
   <title>RedbubbleRails</title>
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo center">Redbubble</a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+  </div>
+</nav>
 <body>
 
 <%= yield %>

@@ -14,5 +14,14 @@
  *= require_self
  */
  @import "materialize/components/color";
- $primary-color: color("red", "lighten-2") !default;
+ $primary-color: color("red", "lighten-1") !default;
  @import 'materialize';
+
+ .brand-logo {
+   font-family: 'Lobster', cursive;
+   font-size: 3.9rem;
+ }
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+}
