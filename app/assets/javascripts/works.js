@@ -9,8 +9,11 @@ $(document).ready(function(){
 })
 
 function renderWorks(work){
+
   $('#works-index').append("<div class='container'>" +
   "<h4 class='center'>Please browse from available images" + "</h4>" +
+
+  work.data +
   "</div><br>"
   )}
 
